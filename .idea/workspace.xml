@@ -28,8 +28,8 @@
     </leaf>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="317" />
-    <option name="y" value="78" />
+    <option name="x" value="17" />
+    <option name="y" value="187" />
     <option name="width" value="1750" />
     <option name="height" value="1025" />
   </component>
@@ -42,6 +42,10 @@
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="kkBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kkBlog" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="kkBlog" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
@@ -104,15 +108,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562235183105</updated>
-      <workItem from="1562235341316" duration="1060000" />
+      <workItem from="1562235341316" duration="1188000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1060000" />
+    <option name="totallyTimeSpent" value="1188000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="254" y="63" width="1400" height="820" extended-state="0" />
+    <frame x="14" y="150" width="1400" height="820" extended-state="0" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962743" />
