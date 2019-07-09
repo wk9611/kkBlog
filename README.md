@@ -1,2 +1,2 @@
-# kkBlog
-使用vue（前端技术栈）+python（后端技术栈）开发一款个人博客
+g# kkBlog
+使用vue（前端技术栈）+python（后端技术栈）进行数据可视化
