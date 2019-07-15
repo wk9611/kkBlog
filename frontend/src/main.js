@@ -5,9 +5,13 @@ import App from './App'
 import router from './router'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
+import Axios from 'axios'
+require('./mock')
 
 Vue.config.productionTip = false
 Vue.use(ElementUI)
+Vue.use(Axios)
+Vue.prototype.$http = Axios
 
 /* eslint-disable no-new */
 new Vue({

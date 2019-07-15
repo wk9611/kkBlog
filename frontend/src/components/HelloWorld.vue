@@ -6,6 +6,7 @@
 <el-button type="primary" icon="el-icon-share"></el-button>
 <el-button type="primary" icon="el-icon-delete"></el-button>
 <el-button type="primary" icon="el-icon-search">搜索</el-button>
+<li v-for="item in data" :key="item">{{item}}</li>
   </div>
 </template>
 
@@ -14,8 +15,22 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
+      data: [],
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+  methods: {
+    getData () {
+      this.$http.get('/api/data').then((res) => {
+        this.data = res.data
+        console.log(res)
+      }).catch((error) => {
+        console.log(error)
+      })
+    }
+  },
+  mounted () {
+    this.getData()
   }
 }
 </script>
